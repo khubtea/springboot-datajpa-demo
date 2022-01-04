@@ -1,0 +1,272 @@
+2022-01-01 15:25:15.553  INFO 11200 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : Starting SpringbootDatajpaDemoApplication using Java 17.0.1 on DESKTOP-A99T2R1 with PID 11200 (D:\STSProjects\springboot-datajpa-demo\target\classes started by NagiReddy in D:\STSProjects\springboot-datajpa-demo)
+2022-01-01 15:25:15.561  INFO 11200 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : No active profile set, falling back to default profiles: default
+2022-01-01 15:25:20.024  INFO 11200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-01 15:25:20.182  INFO 11200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139 ms. Found 2 JPA repository interfaces.
+2022-01-01 15:25:22.208  INFO 11200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-01 15:25:22.267  INFO 11200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-01 15:25:22.268  INFO 11200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-01 15:25:23.110  INFO 11200 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-01 15:25:23.160  INFO 11200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-01 15:25:23.162  INFO 11200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6790 ms
+2022-01-01 15:25:23.846  INFO 11200 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-01 15:25:24.152  INFO 11200 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-01 15:25:24.658  INFO 11200 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-01 15:25:24.954  INFO 11200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-01 15:25:25.816  INFO 11200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-01 15:25:25.900  INFO 11200 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-01 15:25:27.186  INFO 11200 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-01 15:25:27.205  INFO 11200 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 15:25:28.700  INFO 11200 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26c1244c, org.springframework.security.web.context.SecurityContextPersistenceFilter@3bf52f8f, org.springframework.security.web.header.HeaderWriterFilter@1c512bb, org.springframework.security.web.csrf.CsrfFilter@6097f225, org.springframework.security.web.authentication.logout.LogoutFilter@9a16af1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@127320df, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4e553d60, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@e76134d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@811d8d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40239b34, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a317af7, org.springframework.security.web.session.SessionManagementFilter@3bac86a3, org.springframework.security.web.access.ExceptionTranslationFilter@183a84f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32050628]
+2022-01-01 15:25:29.515  INFO 11200 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-01 15:25:30.071  INFO 11200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-01 15:25:30.084  INFO 11200 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : Started SpringbootDatajpaDemoApplication in 15.781 seconds (JVM running for 17.6)
+2022-01-01 15:25:38.192  INFO 11200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-01 15:25:38.192  INFO 11200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-01 15:25:38.193  INFO 11200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-01-01 15:27:45.902  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method UserDetails com.khub.boot.service.UserDetailsServiceImpl.loadUserByUsername(String) method
+2022-01-01 15:27:45.907  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method SAUser com.khub.boot.repository.SAUserRepository.findByUsername(String) method
+2022-01-01 15:27:46.289  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method findByUsername method
+2022-01-01 15:27:46.290  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method loadUserByUsername method
+2022-01-01 15:27:46.862  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 15:27:46.877  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 15:27:46.878  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 15:27:46.925  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 15:27:46.925  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 15:27:46.926  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:27:46.950  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:28:19.771  INFO 11200 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomer(Model) method
+2022-01-01 15:28:19.771  INFO 11200 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomer method
+2022-01-01 15:28:42.588  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.saveCustomer(Customer) method
+2022-01-01 15:28:42.594  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method void com.khub.boot.service.CustomerServiceImpl.saveCustomer(Customer) method
+2022-01-01 15:28:42.597  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method Object org.springframework.data.repository.CrudRepository.save(Object) method
+2022-01-01 15:28:42.826  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method save method
+2022-01-01 15:28:42.826  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method saveCustomer method
+2022-01-01 15:28:42.943  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method saveCustomer method
+2022-01-01 15:28:42.956  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 15:28:42.957  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 15:28:42.957  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 15:28:42.961  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 15:28:42.961  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 15:28:42.961  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:28:42.963  INFO 11200 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:28:48.556  INFO 11200 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 15:28:48.559  INFO 11200 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 15:28:48.560  INFO 11200 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 15:28:48.563  INFO 11200 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 15:28:48.563  INFO 11200 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 15:28:48.563  INFO 11200 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:28:48.565  INFO 11200 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:28:54.210  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.deleteCustomer(int) method
+2022-01-01 15:28:54.212  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method void com.khub.boot.service.CustomerServiceImpl.deleteCustomer(int) method
+2022-01-01 15:28:54.215  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method boolean org.springframework.data.repository.CrudRepository.existsById(Object) method
+2022-01-01 15:28:54.240  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method existsById method
+2022-01-01 15:28:54.241  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method void org.springframework.data.repository.CrudRepository.deleteById(Object) method
+2022-01-01 15:28:54.277  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method deleteById method
+2022-01-01 15:28:54.280  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method deleteCustomer method
+2022-01-01 15:28:54.551  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method deleteCustomer method
+2022-01-01 15:28:54.559  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 15:28:54.560  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 15:28:54.560  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 15:28:54.566  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 15:28:54.567  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 15:28:54.567  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:28:54.570  INFO 11200 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:28:57.505  INFO 11200 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomer(Model) method
+2022-01-01 15:28:57.507  INFO 11200 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomer method
+2022-01-01 15:29:11.082  INFO 11200 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.saveCustomer(Customer) method
+2022-01-01 15:29:11.085  INFO 11200 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method void com.khub.boot.service.CustomerServiceImpl.saveCustomer(Customer) method
+2022-01-01 15:29:11.088  INFO 11200 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method Object org.springframework.data.repository.CrudRepository.save(Object) method
+2022-01-01 15:29:11.112  INFO 11200 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method save method
+2022-01-01 15:29:11.113  INFO 11200 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method saveCustomer method
+2022-01-01 15:29:11.230  INFO 11200 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method saveCustomer method
+2022-01-01 15:29:11.239  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 15:29:11.240  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 15:29:11.240  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 15:29:11.244  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 15:29:11.244  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 15:29:11.244  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:29:11.246  INFO 11200 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:29:27.875  INFO 11200 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-01 15:29:27.908  INFO 11200 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 15:29:27.912  INFO 11200 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-01 15:29:27.923  INFO 11200 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-01 15:29:31.289  INFO 11712 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : Starting SpringbootDatajpaDemoApplication using Java 17.0.1 on DESKTOP-A99T2R1 with PID 11712 (D:\STSProjects\springboot-datajpa-demo\target\classes started by NagiReddy in D:\STSProjects\springboot-datajpa-demo)
+2022-01-01 15:29:31.293  INFO 11712 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : No active profile set, falling back to default profiles: default
+2022-01-01 15:29:32.416  INFO 11712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-01 15:29:32.489  INFO 11712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2022-01-01 15:29:33.518  INFO 11712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-01 15:29:33.531  INFO 11712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-01 15:29:33.531  INFO 11712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-01 15:29:33.986  INFO 11712 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-01 15:29:34.014  INFO 11712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-01 15:29:34.014  INFO 11712 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2642 ms
+2022-01-01 15:29:34.423  INFO 11712 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-01 15:29:34.503  INFO 11712 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-01 15:29:34.760  INFO 11712 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-01 15:29:34.924  INFO 11712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-01 15:29:35.449  INFO 11712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-01 15:29:35.469  INFO 11712 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-01 15:29:36.267  INFO 11712 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-01 15:29:36.278  INFO 11712 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 15:29:37.441  INFO 11712 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65b1693c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ed5cc8c, org.springframework.security.web.header.HeaderWriterFilter@712594f4, org.springframework.security.web.csrf.CsrfFilter@5b827796, org.springframework.security.web.authentication.logout.LogoutFilter@2adce412, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@49c6ee4a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@71ac5723, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@9a74a93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47400608, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4172c967, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@255d4d7, org.springframework.security.web.session.SessionManagementFilter@7f6a6d46, org.springframework.security.web.access.ExceptionTranslationFilter@c19bb2a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35630ee8]
+2022-01-01 15:29:37.860  INFO 11712 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-01 15:29:38.240  INFO 11712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-01 15:29:38.253  INFO 11712 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : Started SpringbootDatajpaDemoApplication in 7.552 seconds (JVM running for 8.771)
+2022-01-01 15:29:47.313  INFO 11712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-01 15:29:47.314  INFO 11712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-01 15:29:47.316  INFO 11712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-01 15:30:28.972  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method UserDetails com.khub.boot.service.UserDetailsServiceImpl.loadUserByUsername(String) method
+2022-01-01 15:30:28.977  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method SAUser com.khub.boot.repository.SAUserRepository.findByUsername(String) method
+2022-01-01 15:30:29.245  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method findByUsername method
+2022-01-01 15:30:29.246  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method loadUserByUsername method
+2022-01-01 15:30:29.789  INFO 11712 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 15:30:29.800  INFO 11712 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 15:30:29.800  INFO 11712 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 15:30:29.845  INFO 11712 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 15:30:29.846  INFO 11712 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 15:30:29.846  INFO 11712 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:30:29.862  INFO 11712 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:31:43.216  INFO 11712 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 15:31:43.219  INFO 11712 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 15:31:43.220  INFO 11712 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 15:31:43.229  INFO 11712 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 15:31:43.229  INFO 11712 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 15:31:43.230  INFO 11712 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:31:43.232  INFO 11712 --- [http-nio-8080-exec-2] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:31:46.863  INFO 11712 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.showFormForUpdate(int,Model) method
+2022-01-01 15:31:46.865  INFO 11712 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method Customer com.khub.boot.service.CustomerServiceImpl.getCustomer(int) method
+2022-01-01 15:31:46.869  INFO 11712 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method Optional org.springframework.data.repository.CrudRepository.findById(Object) method
+2022-01-01 15:31:46.885  INFO 11712 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method findById method
+2022-01-01 15:31:46.885  INFO 11712 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomer method
+2022-01-01 15:31:46.887  INFO 11712 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method showFormForUpdate method
+2022-01-01 15:31:54.094  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.saveCustomer(Customer) method
+2022-01-01 15:31:54.097  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method void com.khub.boot.service.CustomerServiceImpl.saveCustomer(Customer) method
+2022-01-01 15:31:54.097  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method Object org.springframework.data.repository.CrudRepository.save(Object) method
+2022-01-01 15:31:54.116  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method save method
+2022-01-01 15:31:54.116  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method saveCustomer method
+2022-01-01 15:31:54.118  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method saveCustomer method
+2022-01-01 15:31:54.129  INFO 11712 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 15:31:54.130  INFO 11712 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 15:31:54.130  INFO 11712 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 15:31:54.133  INFO 11712 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 15:31:54.133  INFO 11712 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 15:31:54.133  INFO 11712 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:31:54.134  INFO 11712 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:31:58.735  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.showFormForUpdate(int,Model) method
+2022-01-01 15:31:58.738  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method Customer com.khub.boot.service.CustomerServiceImpl.getCustomer(int) method
+2022-01-01 15:31:58.739  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method Optional org.springframework.data.repository.CrudRepository.findById(Object) method
+2022-01-01 15:31:58.742  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method findById method
+2022-01-01 15:31:58.742  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomer method
+2022-01-01 15:31:58.743  INFO 11712 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method showFormForUpdate method
+2022-01-01 15:32:11.899  INFO 11712 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.saveCustomer(Customer) method
+2022-01-01 15:32:11.905  INFO 11712 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method void com.khub.boot.service.CustomerServiceImpl.saveCustomer(Customer) method
+2022-01-01 15:32:11.906  INFO 11712 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method Object org.springframework.data.repository.CrudRepository.save(Object) method
+2022-01-01 15:32:11.910  INFO 11712 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method save method
+2022-01-01 15:32:11.910  INFO 11712 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method saveCustomer method
+2022-01-01 15:32:12.206  INFO 11712 --- [http-nio-8080-exec-8] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method saveCustomer method
+2022-01-01 15:32:12.220  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 15:32:12.222  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 15:32:12.223  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 15:32:12.229  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 15:32:12.229  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 15:32:12.229  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 15:32:12.233  INFO 11712 --- [http-nio-8080-exec-9] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 16:49:40.756  INFO 11712 --- [RMI TCP Connection(86)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-01 16:49:40.794  INFO 11712 --- [RMI TCP Connection(86)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 16:49:40.796  INFO 11712 --- [RMI TCP Connection(86)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-01 16:49:40.803  INFO 11712 --- [RMI TCP Connection(86)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-01 16:49:44.528  INFO 10528 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : Starting SpringbootDatajpaDemoApplication using Java 17.0.1 on DESKTOP-A99T2R1 with PID 10528 (D:\STSProjects\springboot-datajpa-demo\target\classes started by NagiReddy in D:\STSProjects\springboot-datajpa-demo)
+2022-01-01 16:49:44.532  INFO 10528 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : No active profile set, falling back to default profiles: default
+2022-01-01 16:49:45.518  INFO 10528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-01 16:49:45.592  INFO 10528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2022-01-01 16:49:46.604  INFO 10528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-01 16:49:46.618  INFO 10528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-01 16:49:46.619  INFO 10528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-01 16:49:47.014  INFO 10528 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-01 16:49:47.040  INFO 10528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-01 16:49:47.040  INFO 10528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2434 ms
+2022-01-01 16:49:47.405  INFO 10528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-01 16:49:47.474  INFO 10528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-01 16:49:47.714  INFO 10528 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-01 16:49:47.894  INFO 10528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-01 16:49:48.402  INFO 10528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-01 16:49:48.427  INFO 10528 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-01 16:49:49.365  INFO 10528 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-01 16:49:49.378  INFO 10528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 16:49:50.573  INFO 10528 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d60cbad, org.springframework.security.web.context.SecurityContextPersistenceFilter@5857d723, org.springframework.security.web.header.HeaderWriterFilter@4172c967, org.springframework.security.web.csrf.CsrfFilter@5a88849, org.springframework.security.web.authentication.logout.LogoutFilter@23e297d9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2e03bb74, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@106f2425, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@51d9479c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@294a3f2a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ac4f31d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@752180c4, org.springframework.security.web.session.SessionManagementFilter@7bb3294c, org.springframework.security.web.access.ExceptionTranslationFilter@67aaf882, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65b1693c]
+2022-01-01 16:49:51.050  INFO 10528 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-01 16:49:51.482  INFO 10528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-01 16:49:51.505  INFO 10528 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : Started SpringbootDatajpaDemoApplication in 7.551 seconds (JVM running for 8.789)
+2022-01-01 16:49:56.122  INFO 10528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-01 16:49:56.122  INFO 10528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-01 16:49:56.124  INFO 10528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-01 16:49:56.178  INFO 10528 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.HomeController.getHomePage(Model) method
+2022-01-01 16:49:56.185  INFO 10528 --- [http-nio-8080-exec-1] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getHomePage method
+2022-01-01 16:52:37.355  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method UserDetails com.khub.boot.service.UserDetailsServiceImpl.loadUserByUsername(String) method
+2022-01-01 16:52:37.361  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method SAUser com.khub.boot.repository.SAUserRepository.findByUsername(String) method
+2022-01-01 16:52:37.695  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method findByUsername method
+2022-01-01 16:52:37.697  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method loadUserByUsername method
+2022-01-01 16:53:06.859  INFO 10528 --- [http-nio-8080-exec-6] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method UserDetails com.khub.boot.service.UserDetailsServiceImpl.loadUserByUsername(String) method
+2022-01-01 16:53:06.860  INFO 10528 --- [http-nio-8080-exec-6] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method SAUser com.khub.boot.repository.SAUserRepository.findByUsername(String) method
+2022-01-01 16:53:06.866  INFO 10528 --- [http-nio-8080-exec-6] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method findByUsername method
+2022-01-01 16:53:06.866  INFO 10528 --- [http-nio-8080-exec-6] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method loadUserByUsername method
+2022-01-01 16:53:07.386  INFO 10528 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomer(Model) method
+2022-01-01 16:53:07.391  INFO 10528 --- [http-nio-8080-exec-7] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomer method
+2022-01-01 17:01:29.430  INFO 10528 --- [http-nio-8080-exec-5] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method String com.khub.boot.controller.CustomerController.getCustomers(Model) method
+2022-01-01 17:01:29.440  INFO 10528 --- [http-nio-8080-exec-5] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 17:01:29.441  INFO 10528 --- [http-nio-8080-exec-5] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 17:01:29.475  INFO 10528 --- [http-nio-8080-exec-5] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 17:01:29.475  INFO 10528 --- [http-nio-8080-exec-5] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 17:01:29.476  INFO 10528 --- [http-nio-8080-exec-5] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 17:01:29.501  INFO 10528 --- [http-nio-8080-exec-5] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 17:05:38.069  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.controller.CustomerRESTController.getCustomers() method
+2022-01-01 17:05:38.077  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 17:05:38.078  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 17:05:38.085  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 17:05:38.086  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 17:05:38.086  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 17:05:38.088  INFO 10528 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 17:06:09.321  INFO 10528 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-01 17:06:09.353  INFO 10528 --- [RMI TCP Connection(25)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 17:06:09.355  INFO 10528 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-01 17:06:09.366  INFO 10528 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-01 17:06:12.793  INFO 9016 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : Starting SpringbootDatajpaDemoApplication using Java 17.0.1 on DESKTOP-A99T2R1 with PID 9016 (D:\STSProjects\springboot-datajpa-demo\target\classes started by NagiReddy in D:\STSProjects\springboot-datajpa-demo)
+2022-01-01 17:06:12.796  INFO 9016 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : No active profile set, falling back to default profiles: default
+2022-01-01 17:06:13.755  INFO 9016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-01 17:06:13.839  INFO 9016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2022-01-01 17:06:14.828  INFO 9016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-01 17:06:14.841  INFO 9016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-01 17:06:14.842  INFO 9016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-01 17:06:15.228  INFO 9016 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-01-01 17:06:15.243  INFO 9016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-01 17:06:15.243  INFO 9016 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2375 ms
+2022-01-01 17:06:15.549  INFO 9016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-01 17:06:15.608  INFO 9016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-01 17:06:15.822  INFO 9016 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-01 17:06:15.971  INFO 9016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-01 17:06:16.494  INFO 9016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-01 17:06:16.520  INFO 9016 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-01-01 17:06:17.419  INFO 9016 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-01 17:06:17.430  INFO 9016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 17:06:18.652  INFO 9016 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e0b1f03, org.springframework.security.web.context.SecurityContextPersistenceFilter@f391e52, org.springframework.security.web.header.HeaderWriterFilter@294bb6ae, org.springframework.security.web.csrf.CsrfFilter@e5f05f8, org.springframework.security.web.authentication.logout.LogoutFilter@3f2a7ca0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@33622388, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6ac4f31d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@d60cbad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b518645, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37a14aa1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51d9479c, org.springframework.security.web.session.SessionManagementFilter@71ac5723, org.springframework.security.web.access.ExceptionTranslationFilter@374bf34b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bfb60b7]
+2022-01-01 17:06:19.063  INFO 9016 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-01-01 17:06:19.459  INFO 9016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-01 17:06:19.472  INFO 9016 --- [main] c.k.b.SpringbootDatajpaDemoApplication   : Started SpringbootDatajpaDemoApplication in 7.256 seconds (JVM running for 8.261)
+2022-01-01 17:06:30.524  INFO 9016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-01 17:06:30.525  INFO 9016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-01 17:06:30.526  INFO 9016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-01 17:06:56.601  INFO 9016 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method UserDetails com.khub.boot.service.UserDetailsServiceImpl.loadUserByUsername(String) method
+2022-01-01 17:06:56.606  INFO 9016 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method SAUser com.khub.boot.repository.SAUserRepository.findByUsername(String) method
+2022-01-01 17:06:56.899  INFO 9016 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method findByUsername method
+2022-01-01 17:06:56.901  INFO 9016 --- [http-nio-8080-exec-3] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method loadUserByUsername method
+2022-01-01 17:06:57.456  INFO 9016 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.controller.CustomerRESTController.getCustomers() method
+2022-01-01 17:06:57.471  INFO 9016 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() before invokation of the method List com.khub.boot.service.CustomerServiceImpl.getCustomers() method
+2022-01-01 17:06:57.472  INFO 9016 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @Before: AOP method being called. Hurray!
+2022-01-01 17:06:57.504  INFO 9016 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @AfterReturning: AOP method being called. Hurray!
+2022-01-01 17:06:57.505  INFO 9016 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : @After: AOP method being called. Hurray!
+2022-01-01 17:06:57.505  INFO 9016 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 17:06:57.526  INFO 9016 --- [http-nio-8080-exec-4] com.khub.boot.aop.LogMethodAspect        : The method aroundAdvice() after invokation of the method getCustomers method
+2022-01-01 17:17:49.651  INFO 9016 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-01 17:17:49.688  INFO 9016 --- [RMI TCP Connection(19)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-01 17:17:49.691  INFO 9016 --- [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-01 17:17:49.706  INFO 9016 --- [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
